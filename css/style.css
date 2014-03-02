@@ -1,0 +1,66 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+
+* {
+	box-sizing: border-box;
+}
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"],
+.pure-g-r [class *= "pure-u"] {
+    /* Set your content font stack here: */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+	background: #0078E7;
+	overflow: hidden;
+	color: white;
+    font-weight: 700;
+}
+
+
+
+#paragraph-form textarea {
+	margin: 15px auto;
+    height: 200px;
+}
+
+#paragraph-form input[type="submit"] {
+	display: block;
+	margin: 15px auto;
+    font-weight: 700;
+}
+
+.pure-g-r {
+	display: block;
+}
+
+#back-button {
+	display: block;
+	margin: 0 auto;
+    font-weight: 700;
+}
+
+.tweet {
+    width:66%;
+    margin:20px auto;
+    border-radius: 12px;
+    padding: 1em;
+    box-shadow: 0px 1px 2px 1px rgba(0, 120, 231, 0.6);
+}
+
+.tweet blockquote {
+    margin: 0;
+}
+
+.hide {
+    display:none;
+}
+
+.tweet .tweet-button {
+    font-weight: 700;
+}

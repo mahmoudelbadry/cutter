@@ -1,0 +1,23 @@
+{
+  "name": "cutter",
+  "version": "0.1",
+  "authors": [
+    "mahmoudelbadry <mahmmoud.mustafa.elbadry@gmail.com>"
+  ],
+  "description": "app that cuts big paragraphs into small tweets",
+  "main": ".",
+  "license": "MIT",
+  "private": true,
+	"dependencies": {
+		"pure": "*",
+        "handlebars" : "*"
+	},
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ]
+}
