@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Cutter
 
 Cutter is a webapp that takes a paragraph and cuts it into multipart tweets (1/3) , (2/3) .. etc.
@@ -26,9 +25,3 @@ Currently it has been tested on Chrome and Firefox, cutter should work on IE10+ 
 
 ##License
 cutter is licensed under the [MIT license.]   
-=======
-cutter
-======
-
-a webapp that cuts your paragraphs into multipart tweets
->>>>>>> 4a7cf359e4e29f36b4c787af103cf681358cc18b
