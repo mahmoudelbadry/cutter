@@ -7,17 +7,27 @@
 	<link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-	<header class="group"> 
-		<h1>cutter</h1>
-	</header>
-	<div class="pure-g-r" id="paragraph-box-container">
-			<form id="paragraph-form" method="post" class="pure-form pure-form-stacked" action="">
-				<textarea name="text"class="pure-input-1-2" placeholder="Enter your paragraph here..."></textarea>
-				<input type="submit" class="pure-input-1-4 pure-button pure-button-primary" value="cut it!" />
-			</form>
+	<div class="wrapper">
+	    	<header class="group"> 
+	    		<h1>cutter</h1>
+	    	</header>
+	        <div class="pure-g-r" id="paragraph-box-container">
+	                <form id="paragraph-form" method="post" class="pure-form pure-form-stacked" action="">
+	                    <textarea name="text" placeholder="Enter your paragraph here and cutter will split it into tweets..."></textarea>
+	                    <input type="submit" class="pure-input-1-4 pure-button pure-button-primary" value="cut it!" />
+	                </form>
+	        </div>
+	        <div id="tweets-container" class='hide'>
+	        </div>
 	</div>
-	<div id="tweets-container" class='hide'>
-	</div>
+    <footer>
+        <p>
+           Made by <a href="http://twitter.com/mahmoudelbadry">Mahmoud El-Badry</a>.
+        </p>
+        <p>
+            Check out the source on <a href="http://github.com/mahmoudelbadry/cutter">Github</a>
+        </p>
+    </footer>
     <script id="tweets-container-template" type="text/x-handlebars-template">
         {{#each sentences}}
             <div class="tweet pure-g-r"> 

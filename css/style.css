@@ -2,6 +2,7 @@
 
 * {
 	box-sizing: border-box;
+    margin: 0;
 }
 
 html, button, input, select, textarea,
@@ -9,7 +10,11 @@ html, button, input, select, textarea,
 .pure-g-r [class *= "pure-u"] {
     /* Set your content font stack here: */
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 400;
+    font-weight: 400; 
+}
+
+html,body {
+    height: 100%;
 }
 
 header {
@@ -23,10 +28,25 @@ header {
 }
 
 
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -80px;
+}
+
+.wrapper:after {
+    content: "";
+    display: block;
+}
+
+footer , .wrapper:after {
+    height: 80px;
+}
 
 #paragraph-form textarea {
 	margin: 15px auto;
     height: 200px;
+    width: 66%;
+    resize: none;
 }
 
 #paragraph-form input[type="submit"] {
@@ -64,3 +84,14 @@ header {
 .tweet .tweet-button {
     font-weight: 700;
 }
+
+
+footer p {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #0078E7;
+}
+
